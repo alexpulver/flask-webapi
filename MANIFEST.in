@@ -1,0 +1,8 @@
+include .cfignore
+include .gitignore
+include manifest.yml
+include Procfile
+include README.md
+include requirements.txt
+
+recursive-include tests *
