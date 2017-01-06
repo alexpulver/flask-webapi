@@ -3,7 +3,7 @@ import os
 from flask import Flask
 from flask_restful import Api
 
-from webapi.v1.endpoint import Endpoint
+from api.v1.endpoint import Endpoint
 
 
 def create_app():
